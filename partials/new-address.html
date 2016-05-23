@@ -1,0 +1,22 @@
+<h1>New Entry</h1>
+<form class="card col s2 z-depth-3">
+  <div>
+    <label>Name</label>
+    <input class="center" type="text" ng-model="newAddress.name">
+  </div>
+  <div>
+    <label>Address</label>
+    <input class="center" type="text" ng-model="newAddress.address">
+  </div>
+  <div>
+    <label>City</label>
+    <input class="center" type="text" ng-model="newAddress.city">
+  </div>
+  <div>
+    <label>State</label>
+    <input class="center" type="text" ng-model="newAddress.state">
+  </div>
+  <button class="btn waves-effect waves-light" type="submit" name="action" ng-click="addAddress()">Submit
+    <i class="right">>></i>
+  </button>
+</form>

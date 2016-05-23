@@ -1,0 +1,5 @@
+ {
+    "predef": ["angular", "document", "jQuery", "$", "console" ],
+    "esversion": 6,
+    "globalstrict": true
+  }

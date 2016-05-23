@@ -1,0 +1,22 @@
+<nav>
+  <div class="nav-wrapper">
+    <form>
+      <div class="input-field">
+        <input id="search" type="search" required ng-model="searchText" class="fill">
+        <label for="search"><i class="material-icons">search</i></label>
+        <i class="material-icons">close</i>
+      </div>
+    </form>
+  </div>
+</nav>
+<h1>Addresses</h1>
+<div class="container row">
+  <div ng-repeat="thingy in items | filter: searchText">
+    <div class="col s3 z-depth-3 card offset-s1">
+      <div>{{thingy.name}}</div>
+      <div>{{thingy.address}}</div>
+      <div>{{thingy.city}}, {{thingy.state}}</div>
+      <a class="waves-effect waves-light btn card-panel hoverable">button</a>
+    </div>
+  </div>
+</div>

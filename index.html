@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body ng-app="AddressBook">
+  <nav ng-controller="NavCtrl">
+    <div class="nav-wrapper">
+      <i class="brand-logo left large material-icons">assignment_ind</i>
+      <ul id="nav-mobile" class="right hide-on-sm-and-down" ng-repeat="thing in navItems">
+        <li><a href="{{thing.url}}">{{thing.name}}</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div ng-view></div>
+
+
+
+
+  <script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="lib/bower_components/angular/angular.min.js"></script>
+  <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controlers/navCtrl.js"></script>
+  <script src="app/controlers/addressList.js"></script>
+  <script src="app/controlers/addAddress.js"></script>
+</body>
+</html>
