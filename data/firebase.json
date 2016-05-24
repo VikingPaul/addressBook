@@ -1,0 +1,40 @@
+{
+  "firebases": {
+    "q": {
+      "name": "Paul",
+      "address": "666 6th Ave.",
+      "city": "Goodlettsville",
+      "state": "TN"
+    },
+    "w": {
+      "name": "Paul",
+      "address": "666 6th Ave.",
+      "city": "Goodlettsville",
+      "state": "TN"
+    },
+    "e": {
+      "name": "Paul",
+      "address": "666 6th Ave.",
+      "city": "Goodlettsville",
+      "state": "TN"
+    },
+    "r": {
+      "name": "Paul",
+      "address": "666 6th Ave.",
+      "city": "Goodlettsville",
+      "state": "TN"
+    },
+    "t": {
+      "name": "Paul",
+      "address": "666 6th Ave.",
+      "city": "Goodlettsville",
+      "state": "TN"
+    },
+    "y": {
+      "name": "Paul",
+      "address": "666 6th Ave.",
+      "city": "Goodlettsville",
+      "state": "TN"
+    }
+  }
+}
