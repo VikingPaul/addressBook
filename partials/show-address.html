@@ -12,11 +12,12 @@
 <h1>Addresses</h1>
 <div class="container row">
   <div ng-repeat="thingy in items | filter: searchText">
-    <div class="col s3 z-depth-3 card offset-s1">
+      <div class="col s3 z-depth-3 card offset-s1">
       <div>{{thingy.name}}</div>
       <div>{{thingy.address}}</div>
       <div>{{thingy.city}}, {{thingy.state}}</div>
-      <a class="waves-effect waves-light btn card-panel hoverable red darken-4 circle" ng-click="delete(thingy.id)"><i class="material-icons">not_interested</i></a>
+      <a class="btn-floating btn waves-effect waves-light hoverable green darken-4" ng-href="/edit/{{thingy.id}}"><i class="material-icons circle">mode_edit</i></a>
+      <a class="btn-floating btn waves-effect waves-light hoverable red darken-4 circle" ng-click="delete(thingy.id)"><i class="material-icons">not_interested</i></a>
     </div>
   </div>
 </div>
