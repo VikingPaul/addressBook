@@ -1,5 +1,5 @@
- {
-    "predef": ["angular", "document", "jQuery", "$", "console" ],
-    "esversion": 6,
-    "globalstrict": true
-  }
+{
+  "predef": ["angular", "document", "jQuery", "$", "console" ],
+  "esversion": 6,
+  "globalstrict": true
+}
